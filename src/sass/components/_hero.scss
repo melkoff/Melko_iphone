@@ -1,0 +1,33 @@
+.home{
+   background-color: #fff;
+   &__content{
+      margin: 0 120px;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-auto-rows: minmax(100px, auto);
+   }
+   .element{
+      background-color: aqua;
+      padding: 12px;
+      border: 1px solid #000;
+   }
+}
+
+#one{
+   grid-column-start: 2;
+   grid-column-end: 4;
+   grid-row-start: 2;
+   grid-row-end: 4;
+   grid-column: 2 / 4;
+   grid-row: 2 / 4;
+   background-color: yellow;
+}
+
+#two{
+   grid-column-start: 1;
+   grid-column-end: 1;
+   grid-row-start: 1;
+   grid-row-end: 4;
+   grid-area: 1 / 1 / 4 / 1;
+   background-color: green;
+}
