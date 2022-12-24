@@ -8,6 +8,8 @@
   <link href="https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900" rel="stylesheet" />
   <link rel="icon" href="./img/favicon/apple.png">
   <link rel="stylesheet" href="css/style.min.css" />
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
 </head>
 
 <body>
@@ -23,10 +25,18 @@
   @@include("components/_footer.html")
   @@include("icons/_icons.html")
 
-  <script src="https://code.jquery.com/jquery-2.2.4.min.js"
-    integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+  <!-- <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+    integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></scrip>
   <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-  <script src="js/script.js"></script>
+  <script src="js/script.js"></script> -->
+
+  <script>
+    var beepOne = $("#beep")[0];
+    $(".title__event_card")
+      .mouseenter(function () {
+        beepOne.play();
+      });
+  </script>
 </body>
 
 </html>

@@ -1,4 +1,3 @@
-
 // const htmlmin = require("gulp-htmlmin");
 
 // let slider = $(document).ready(function () {
@@ -30,57 +29,55 @@ function humbHandler(e) {
   window.scrollTo(0, 0);
 }
 
+// let slider = $(document).ready(function () {
+//   $('.teacher').slick({
+//     slidesToShow: 3,
+//     slidesToScroll: 1,
+//     arrows: true,
+//     dots: false,
+//     infinite: true,
+//     autoplay: true,
+//     autoplaySpeed: 2500,
+//     responsive: [
+//       {
+//         breakpoint: 1145,
+//         settings: {
+//           slidesToShow: 2,
+//         }
+//       },{
+//         breakpoint: 901,
+//         settings: {
+//           slidesToShow: 1,
+//         }
+//       }
 
-let slider = $(document).ready(function () {
-  $('.teacher').slick({
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    arrows: true,
-    dots: false,
-    infinite: true,
-    autoplay: true,
-    autoplaySpeed: 2500,
-    responsive: [
-      {
-        breakpoint: 1145,
-        settings: {
-          slidesToShow: 2,
-        }
-      },{
-        breakpoint: 901,
-        settings: {
-          slidesToShow: 1,
-        }
-      }
+//     ]
+//   });
+// });
 
-    ]
-  });
-});
-
-$(document).ready(function () {
-  $(".feedbacks__slider").slick({
-    slidesToShow: 2,
-    slidesToScroll: 1,
-    arrows: true,
-    dots: false,
-    infinite: true,
-    prevArrow:
-      "<img class='a-left control-c prev slick-prev' src='../img/Vector-left.svg'>",
-    nextArrow:
-      "<img class='a-right control-c next slick-next' src='../img/Vector-right.svg'>",
-    responsive: [
-      {
-        breakpoint: 992,
-        settings: {
-          vertical: true,
-          verticalSwiping: true,
-          prevArrow:
-          "<img class='a-left control-b prev slick-prev' src='../img/Vector-left.svg'>",
-        nextArrow:
-          "<img class='a-right control-b next slick-next' src='../img/Vector-down.svg'>",
-        },
-      },
-    ],
-  });
-});
-
+// $(document).ready(function () {
+//   $(".feedbacks__slider").slick({
+//     slidesToShow: 2,
+//     slidesToScroll: 1,
+//     arrows: true,
+//     dots: false,
+//     infinite: true,
+//     prevArrow:
+//       "<img class='a-left control-c prev slick-prev' src='../img/Vector-left.svg'>",
+//     nextArrow:
+//       "<img class='a-right control-c next slick-next' src='../img/Vector-right.svg'>",
+//     responsive: [
+//       {
+//         breakpoint: 992,
+//         settings: {
+//           vertical: true,
+//           verticalSwiping: true,
+//           prevArrow:
+//           "<img class='a-left control-b prev slick-prev' src='../img/Vector-left.svg'>",
+//         nextArrow:
+//           "<img class='a-right control-b next slick-next' src='../img/Vector-down.svg'>",
+//         },
+//       },
+//     ],
+//   });
+// });
