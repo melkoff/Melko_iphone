@@ -58,8 +58,10 @@
 
             &:hover{
                cursor: pointer;
-               animation: shake 0.5s;
+               // animation: shake 0.5s;
+               animation: shake 2s;
                animation-iteration-count: infinite;
+               // тут ще можна з анімацією подумати який вибір зробити
                p{
                   display: block;
                   position: absolute;
