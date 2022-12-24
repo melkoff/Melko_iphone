@@ -1,0 +1,137 @@
+.title {
+   font-family: "Inter";
+   padding: 87px 0 150px;
+
+   &__container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 15px;
+
+      h2 {
+         margin: 0 0 50px;
+         text-transform: uppercase;
+         text-align: center;
+         color: #717171;
+         font-size: 32px;
+         line-height: 39px;
+         font-weight: 700;
+      }
+
+      .title__items {
+         display: flex;
+         align-items: center;
+
+         .title__describe {
+            p {
+               max-width: 560px;
+               margin: 0 0 30px;
+            }
+
+            b{
+               max-width: 560px;
+               font-size: 20px;
+               line-height: 26px;
+               display: block;
+            }
+         }
+         
+         .title__event_card{
+            margin-left: 191px;
+            transition: all 0.4s ease 0s;
+            position: relative;
+
+            p{
+               display: none;
+            }
+
+            .smile-call{
+               display: none;
+            }
+
+            .green-call{
+               display: none;
+            }
+
+            .red-call{
+               display: none;
+            }
+
+            &:hover{
+               cursor: pointer;
+               animation: shake 0.5s;
+               animation-iteration-count: infinite;
+               p{
+                  display: block;
+                  position: absolute;
+                  top: 20%;
+                  right: 22%;
+                  color: #fff;
+                  text-align: center;
+               }
+               .smile-call{
+                  display: block;
+                  position: absolute;
+                  top: 30%;
+                  right: 33%;
+                  width: 20px;
+                  height: 20px;
+               }
+               .green-call{
+                  display: block;
+                  position: absolute;
+                  top: 73%;
+                  right: 45%;
+                  width: 20px;
+                  height: 20px;
+                  background: none;
+                  background-color: none;
+               }
+               .red-call{
+                  display: block;
+                  position: absolute;
+                  top: 73%;
+                  right: 20%;
+                  width: 20px;
+                  height: 20px;
+               }
+            }
+            @keyframes shake {
+               0% { transform: translate(1px, 1px) rotate(0deg); }
+               10% { transform: translate(-1px, -2px) rotate(-1deg); }
+               20% { transform: translate(-3px, 0px) rotate(1deg); }
+               30% { transform: translate(3px, 2px) rotate(0deg); }
+               40% { transform: translate(1px, -1px) rotate(1deg); }
+               50% { transform: translate(-1px, 2px) rotate(-1deg); }
+               60% { transform: translate(-3px, 1px) rotate(0deg); }
+               70% { transform: translate(3px, 1px) rotate(-1deg); }
+               80% { transform: translate(-1px, -1px) rotate(1deg); }
+               90% { transform: translate(1px, 2px) rotate(0deg); }
+               100% { transform: translate(1px, -2px) rotate(-1deg); }
+            }
+            // img{
+            //    margin-left: 191px;
+            //    transition: all 0.4s ease 0s;
+            //    &:hover{
+            //       cursor: pointer;
+            //       transform: scale(1.08);
+            //       animation: shake 0.5s;
+            //       animation-iteration-count: infinite;
+            //    }
+            //    @keyframes shake {
+            //       0% { transform: translate(1px, 1px) rotate(0deg); }
+            //       10% { transform: translate(-1px, -2px) rotate(-1deg); }
+            //       20% { transform: translate(-3px, 0px) rotate(1deg); }
+            //       30% { transform: translate(3px, 2px) rotate(0deg); }
+            //       40% { transform: translate(1px, -1px) rotate(1deg); }
+            //       50% { transform: translate(-1px, 2px) rotate(-1deg); }
+            //       60% { transform: translate(-3px, 1px) rotate(0deg); }
+            //       70% { transform: translate(3px, 1px) rotate(-1deg); }
+            //       80% { transform: translate(-1px, -1px) rotate(1deg); }
+            //       90% { transform: translate(1px, 2px) rotate(0deg); }
+            //       100% { transform: translate(1px, -2px) rotate(-1deg); }
+            //    }
+            // }
+         }
+      }
+   }
+}
