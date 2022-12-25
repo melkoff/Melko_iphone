@@ -28,7 +28,6 @@ function humbHandler(e) {
   header.classList.toggle('active');
   window.scrollTo(0, 0);
 }
-
 // let slider = $(document).ready(function () {
 //   $('.teacher').slick({
 //     slidesToShow: 3,

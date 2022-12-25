@@ -1,5 +1,30 @@
 .hero {
    font-family: "Inter";
+   .progresstop{
+      background-color: $var6;
+      color: $var4;
+      position: fixed;
+      bottom: 20px;
+      right: 10px;
+      height: 70px;
+      width: 70px;
+      display: grid;
+      place-items: center;
+      border-radius: 50%;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      text-decoration: none;
+      cursor: pointer;
+      transition: 0.3s;
+      border: 2px solid #10a5b3;
+      &:hover{
+         color: #10a5b3;
+         background-color: $var4;
+         transition: 0.3s;
+      }
+      .progress-item{
+         font-size: 40px;
+      }
+   }
 
    &__container {
       background-color: $var2;
@@ -18,7 +43,7 @@
             font-weight: 700;
             font-size: 64px;
             line-height: 77px;
-            @media screen and (max-width: 768px){
+            @media screen and (max-width: 768px) {
                font-size: 50px;
                line-height: 57px;
             }
@@ -54,7 +79,7 @@
             &:hover {
                background-color: $var5;
             }
-            @media screen and (max-width: 576px){
+            @media screen and (max-width: 576px) {
                font-size: 18px;
                line-height: 22px;
                padding: 16px 90px;

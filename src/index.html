@@ -9,7 +9,8 @@
   <link rel="icon" href="./img/favicon/apple.png">
   <link rel="stylesheet" href="css/style.min.css" />
 
-  <scrip src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+  <scrip src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js">
+    </script>
 </head>
 
 <body>
@@ -30,7 +31,7 @@
   <script src="https://code.jquery.com/jquery-2.2.4.min.js"
     integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
   <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-  <script src="js/script.js"></script>
+  <!-- <script src="js/script.js"></script> -->
 
   <script>
     //Music effect
@@ -42,7 +43,7 @@
     //
     //Scroll indicator
     // When the user scrolls the page, execute myFunction 
-    window.onscroll = function() {myFunction()};
+    window.onscroll = function () { myFunction() };
 
     function myFunction() {
       var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
@@ -54,17 +55,18 @@
 
   <script type="text/javascript">
     document.addEventListener("mousemove", parallax);
-    function parallax(e){
-        this.querySelectorAll('.layer').forEach(layer => {
-            const speed = layer.getAttribute('data-speed')
+    function parallax(e) {
+      this.querySelectorAll('.layer').forEach(layer => {
+        const speed = layer.getAttribute('data-speed')
 
-            const x = (window.innerWidth - e.pageX*speed)/100
-            const y = (window.innerHeight - e.pageY*speed)/100
+        const x = (window.innerWidth - e.pageX * speed) / 100
+        const y = (window.innerHeight - e.pageY * speed) / 100
 
-            layer.style.transform = `translateX(${x}px) translateY(${y}px)`
-        })
+        layer.style.transform = `translateX(${x}px) translateY(${y}px)`
+      })
     }
   </script>
+  <script src="js/script.js"></script>
 </body>
 
 </html>
