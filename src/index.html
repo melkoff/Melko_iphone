@@ -9,7 +9,8 @@
   <link rel="icon" href="./img/favicon/apple.png">
   <link rel="stylesheet" href="css/style.min.css" />
 
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+  <scrip src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js">
+    </script>
 </head>
 
 <body>
@@ -20,22 +21,27 @@
 
   @@include("components/_title.html")
 
+  @@include("components/_color-iphone.html")
+
   @@include("components/_form.html")
 
   @@include("components/_footer.html")
   @@include("icons/_icons.html")
 
-  <!-- <script src="https://code.jquery.com/jquery-2.2.4.min.js"
-    integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></scrip>
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+    integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
   <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-  <script src="js/script.js"></script> -->
+  <script src="js/script.js"></script>
 
   <script>
+    //Music effect
     var beepOne = $("#beep")[0];
     $(".title__event_card")
       .mouseenter(function () {
         beepOne.play();
       });
+    //
+    //Paralax
   </script>
 </body>
 

@@ -25,6 +25,7 @@
             p {
                max-width: 560px;
                margin: 0 0 30px;
+               color: $var1;
             }
 
             b{
@@ -32,6 +33,7 @@
                font-size: 20px;
                line-height: 26px;
                display: block;
+               color: $var1;
             }
          }
          
@@ -81,7 +83,7 @@
                .green-call{
                   display: block;
                   position: absolute;
-                  top: 73%;
+                  top: 80%;
                   right: 45%;
                   width: 20px;
                   height: 20px;
@@ -91,7 +93,7 @@
                .red-call{
                   display: block;
                   position: absolute;
-                  top: 73%;
+                  top: 80%;
                   right: 20%;
                   width: 20px;
                   height: 20px;
