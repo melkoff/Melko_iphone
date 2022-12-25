@@ -1,0 +1,65 @@
+.contacts {
+   font-family: "Inter";
+
+   &__container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 15px;
+      .contacts__items {
+         display: flex;
+         background-color: $var5;
+         color: $var6;
+         .contacts__form {
+            width: 100%;
+            padding: 140px 100px;
+            text-align: center;
+            h2 {
+               margin: 0 0 62px;
+               text-transform: uppercase;
+               font-size: 32px;
+               line-height: 39px;
+               text-align: left;
+            }
+            .contacts__input {
+               padding: 10px 0;
+               border: none;
+               border-bottom: 1px solid $var6;
+               display: block;
+               width: 100%;
+               margin-bottom: 20px;
+               background-color: $var5;
+               &::placeholder {
+                  font-size: 14px;
+                  line-height: 18px;
+                  font-weight: 400;
+                  font-family: "Inter Tight", sans-serif;
+                  color: $var6;
+                  opacity: 0.5;
+               }
+            }
+            p {
+               margin: 30px 0;
+               text-align: center;
+               opacity: 0.5;
+            }
+            button {
+               border: none;
+               text-transform: uppercase;
+               color: $var4;
+               background-color: $var6;
+               border-radius: 30px;
+               padding: 16px 81px;
+               font-weight: 700;
+               cursor: pointer;
+               margin: 30px 0 138px 0;
+               transition: 0.3s;
+               &:hover{
+                  background-color: $var1;
+                  color: $var6;
+                  transition: 0.3s;
+               }
+            }
+         }
+      }
+   }
+}

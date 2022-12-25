@@ -30,8 +30,8 @@
                   cursor: pointer;
                   img{
                      filter: blur(4px);
-                     transform: rotate(360deg);
                      transition: 0.6s;
+                     transform: scale(1.06);
                   }
                   h4{
                      position: absolute;
@@ -60,7 +60,7 @@
                      border-radius: 30px;
                      padding: 20px;
                      height: 0%;
-                     top: 80%;
+                     top: 68%;
                      right: 36%;
                      color: rgb(16, 165, 179);
                      transition: 0.6s;
@@ -78,8 +78,8 @@
                   cursor: pointer;
                   img{
                      filter: blur(4px);
-                     transform: rotate(360deg);
                      transition: 0.6s;
+                     transform: scale(1.06);
                   }
                   h4{
                      position: absolute;
@@ -108,7 +108,7 @@
                      border-radius: 30px;
                      padding: 20px;
                      height: 0%;
-                     top: 80%;
+                     top: 68%;
                      right: 32%;
                      color: rgb(16, 165, 179);
                      transition: 0.6s;
@@ -126,8 +126,8 @@
                   cursor: pointer;
                   img{
                      filter: blur(4px);
-                     transform: rotate(360deg);
                      transition: 0.6s;
+                     transform: scale(1.06);
                   }
                   h4{
                      position: absolute;
@@ -156,7 +156,7 @@
                      border-radius: 30px;
                      padding: 20px;
                      height: 0%;
-                     top: 80%;
+                     top: 68%;
                      right: 33%;
                      color: rgb(16, 165, 179);
                      transition: 0.6s;
@@ -174,8 +174,8 @@
                   cursor: pointer;
                   img{
                      filter: blur(4px);
-                     transform: rotate(360deg);
                      transition: 0.6s;
+                     transform: scale(1.06);
                   }
                   h4{
                      position: absolute;
@@ -204,7 +204,7 @@
                      border-radius: 30px;
                      padding: 20px;
                      height: 0%;
-                     top: 80%;
+                     top: 68%;
                      right: 30%;
                      color: rgb(16, 165, 179);
                      transition: 0.6s;
@@ -218,9 +218,13 @@
                }
             }
             h3 {
+               color: $var1;
                font-size: 20px;
                line-height: 26px;
                margin: 0 0 10px;
+            }
+            p{
+               color: $var1;
             }
             h4{
                position: absolute;

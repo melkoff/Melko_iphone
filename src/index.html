@@ -23,7 +23,7 @@
 
   @@include("components/_color-iphone.html")
 
-  @@include("components/_form.html")
+  @@include("components/_contacts.html")
 
   @@include("components/_footer.html")
   @@include("icons/_icons.html")
@@ -43,6 +43,20 @@
     //
     //Paralax
   </script>
+
+<script type="text/javascript">
+  document.addEventListener("mousemove", parallax);
+  function parallax(e){
+      this.querySelectorAll('.layer').forEach(layer => {
+          const speed = layer.getAttribute('data-speed')
+
+          const x = (window.innerWidth - e.pageX*speed)/100
+          const y = (window.innerHeight - e.pageY*speed)/100
+
+          layer.style.transform = `translateX(${x}px) translateY(${y}px)`
+      })
+  }
+</script>
 </body>
 
 </html>
