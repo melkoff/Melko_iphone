@@ -1,6 +1,9 @@
 .title {
    font-family: "Inter";
    padding: 87px 0 150px;
+   @media screen and (max-width: 992px) {
+      padding: 40px 0;
+   }
 
    &__container {
       max-width: 1200px;
@@ -20,6 +23,9 @@
       .title__items {
          display: flex;
          align-items: center;
+         @media screen and (max-width: 992px) {
+            flex-direction: column;
+         }
 
          .title__describe {
             p {
@@ -41,6 +47,9 @@
             margin-left: 191px;
             transition: all 0.4s ease 0s;
             position: relative;
+            @media screen and (max-width: 992px) {
+               margin: 0;
+            }
 
             p {
                display: none;

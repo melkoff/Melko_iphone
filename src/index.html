@@ -17,7 +17,7 @@
 
   @@include("components/_header.html")
 
-  @@include("components/_hero.html")
+  <!-- @@include("components/_hero.html") -->
 
   @@include("components/_title.html")
 
@@ -44,19 +44,19 @@
     //Paralax
   </script>
 
-<script type="text/javascript">
-  document.addEventListener("mousemove", parallax);
-  function parallax(e){
-      this.querySelectorAll('.layer').forEach(layer => {
-          const speed = layer.getAttribute('data-speed')
+  <script type="text/javascript">
+    document.addEventListener("mousemove", parallax);
+    function parallax(e){
+        this.querySelectorAll('.layer').forEach(layer => {
+            const speed = layer.getAttribute('data-speed')
 
-          const x = (window.innerWidth - e.pageX*speed)/100
-          const y = (window.innerHeight - e.pageY*speed)/100
+            const x = (window.innerWidth - e.pageX*speed)/100
+            const y = (window.innerHeight - e.pageY*speed)/100
 
-          layer.style.transform = `translateX(${x}px) translateY(${y}px)`
-      })
-  }
-</script>
+            layer.style.transform = `translateX(${x}px) translateY(${y}px)`
+        })
+    }
+  </script>
 </body>
 
 </html>
