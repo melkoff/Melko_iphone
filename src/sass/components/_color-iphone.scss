@@ -48,7 +48,7 @@
                      position: absolute;
                      font-size: 24px;
                      top: 35%;
-                     right: 40%;
+                     right: 39%;
                      color: rgb(16, 165, 179);
                      transition: 0.6s;
                   }
@@ -84,7 +84,7 @@
                   }
                   @media screen and (max-width: 1100px){
                      h4{
-                        right: 45%;
+                        right: 44%;
                      }
                      .price{
                         left: 44%;
@@ -92,6 +92,83 @@
                      .buy{
                         top: 72%;
                         right: 42%;
+                     }
+                  }
+                  @media screen and (max-width: 992px){
+                     .price{
+                        left: 43%;
+                     }
+                  }
+                  @media screen and (max-width: 876px){
+                     h4{
+                        right: 43%;
+                     }
+                     .price{
+                        left: 42%;
+                     }
+                     .buy{
+                        right: 40%;
+                     }
+                  }
+                  @media screen and (max-width: 745px){
+                     .price{
+                        left: 41%;
+                     }
+                  }
+                  @media screen and (max-width: 685px){
+                     h4{
+                        right: 42%;
+                     }
+                     .buy{
+                        right: 39%;
+                     }
+                  }
+                  @media screen and (max-width: 685px){
+                     .price{
+                        left: 39%;
+                     }
+                  }
+                  @media screen and (max-width: 625px){
+                     h4{
+                        right: 41%;
+                     }
+                     .buy{
+                        right: 37%;
+                     }
+                  }
+                  @media screen and (max-width: 568px){
+                     h4{
+                        right: 45%;
+                     }
+                     .price{
+                        left: 44%;
+                     }
+                     .buy{
+                        top: 82%;
+                        right: 42%;
+                     }
+                  }
+                  @media screen and (max-width: 495px){
+                     .price{
+                        left: 42%;
+                     }
+                  }
+                  @media screen and (max-width: 440px){
+                     .buy{
+                        right: 40%;
+                     }
+                  }
+                  @media screen and (max-width: 395px){
+                     h4{
+                        right: 43%;
+                     }
+                     .buy{
+                        right: 38%;
+                     }
+                  }
+                  @media screen and (max-width: 340px){
+                     .price{
+                        left: 39%;
                      }
                   }
                }
@@ -352,11 +429,91 @@
                         right: 46%;
                      }
                      .price{
-                        left: 45%;
+                        left: 44%;
                      }
                      .buy{
                         top: 72%;
                         right: 42%;
+                     }
+                  }
+                  @media screen and (max-width: 992px){
+                     .price{
+                        left: 43%;
+                     }
+                  }
+                  @media screen and (max-width: 876px){
+                     h4{
+                        right: 46%;
+                     }
+                     .price{
+                        left: 42%;
+                     }
+                     .buy{
+                        right: 41%;
+                     }
+                  }
+                  @media screen and (max-width: 835px){
+                     h4{
+                        right: 45%;
+                     }
+                  }
+                  @media screen and (max-width: 768px){
+                     h4{
+                        right: 44%;
+                     }
+                     .buy{
+                        right: 39%;
+                     }
+                  }
+                  @media screen and (max-width: 685px){
+                     .price{
+                        left: 40%;
+                     }
+                     .buy{
+                        right: 38%;
+                     }
+                  }
+                  @media screen and (max-width: 625px){
+                     h4{
+                        right: 41%;
+                     }
+                     .buy{
+                        right: 37%;
+                     }
+                  }
+                  @media screen and (max-width: 568px){
+                     h4{
+                        right: 45%;
+                     }
+                     .price{
+                        left: 44%;
+                     }
+                     .buy{
+                        top: 82%;
+                        right: 42%;
+                     }
+                  }
+                  @media screen and (max-width: 495px){
+                     .price{
+                        left: 42%;
+                     }
+                  }
+                  @media screen and (max-width: 440px){
+                     .buy{
+                        right: 40%;
+                     }
+                  }
+                  @media screen and (max-width: 395px){
+                     h4{
+                        right: 43%;
+                     }
+                     .buy{
+                        right: 38%;
+                     }
+                  }
+                  @media screen and (max-width: 340px){
+                     .price{
+                        left: 39%;
                      }
                   }
                }
