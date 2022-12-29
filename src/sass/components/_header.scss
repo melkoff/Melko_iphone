@@ -24,6 +24,7 @@
          justify-content: space-between;
          .header__menu {
             display: flex;
+            flex: 1 0;
             li {
                padding: 42px 0;
                margin-right: 30px;
@@ -32,7 +33,7 @@
                   color: $var3;
                   font-size: 24px;
                   line-height: 29px;
-                  &:hover{
+                  &:hover {
                      color: $var6;
                   }
                }
@@ -40,19 +41,23 @@
          }
          .header__logo {
             text-decoration: none;
-            img{
-               &:hover{
+            img {
+               &:hover {
                   fill: white;
                }
             }
          }
          .header__phone {
-            text-decoration: none;
-            color: $var3;
-            font-size: 24px;
-            line-height: 29px;
-            &:hover{
-               color: $var6;
+            flex: 1 0;
+            text-align: right;
+            a {
+               text-decoration: none;
+               color: $var3;
+               font-size: 24px;
+               line-height: 29px;
+               &:hover {
+                  color: $var6;
+               }
             }
          }
       }
