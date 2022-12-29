@@ -4,7 +4,7 @@
       background-color: $var6;
       color: $var4;
       position: fixed;
-      bottom: 20px;
+      bottom: 110px;
       right: 10px;
       height: 70px;
       width: 70px;
@@ -16,6 +16,9 @@
       cursor: pointer;
       transition: 0.3s;
       border: 2px solid #10a5b3;
+      @media screen and (max-width: 576px){
+         display: none;
+      }
       &:hover{
          color: #10a5b3;
          background-color: $var4;
