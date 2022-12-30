@@ -1,9 +1,11 @@
 .hero {
    font-family: "Inter";
    .progresstop{
+      cursor: pointer;
       background-color: $var6;
       color: $var4;
       position: fixed;
+      z-index: 2;
       bottom: 110px;
       right: 10px;
       height: 70px;
@@ -13,7 +15,6 @@
       border-radius: 50%;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
       text-decoration: none;
-      cursor: pointer;
       transition: 0.3s;
       border: 2px solid #10a5b3;
       @media screen and (max-width: 576px){

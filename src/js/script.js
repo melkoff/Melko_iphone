@@ -1,19 +1,7 @@
-// const htmlmin = require("gulp-htmlmin");
-
-// let slider = $(document).ready(function () {
-//   $('.your-class').slick({
-//     slidesToShow: 1,
-//     slidesToScroll: 1,
-//     arrows: true,
-//     dots: true,
-//     infinite: true
-//   });
-// });
-
-//burger menu
+// burger menu
 'use strict';
-const humb = document.querySelector('#burger');
-const humbBody = document.querySelector('#burger-menu');
+const humb = document.querySelector('.burger');
+const humbBody = document.querySelector('.burger__menu');
 const header = document.querySelector('.header');
 const menuOpen = document.querySelector('html');
 
@@ -26,57 +14,25 @@ function humbHandler(e) {
   menuOpen.classList.toggle("menu__open");
   humb.classList.toggle('active');
   header.classList.toggle('active');
-  window.scrollTo(0, 0);
+  // window.scrollTo(0, 0);
 }
-// let slider = $(document).ready(function () {
-//   $('.teacher').slick({
-//     slidesToShow: 3,
-//     slidesToScroll: 1,
-//     arrows: true,
-//     dots: false,
-//     infinite: true,
-//     autoplay: true,
-//     autoplaySpeed: 2500,
-//     responsive: [
-//       {
-//         breakpoint: 1145,
-//         settings: {
-//           slidesToShow: 2,
-//         }
-//       },{
-//         breakpoint: 901,
-//         settings: {
-//           slidesToShow: 1,
-//         }
-//       }
 
-//     ]
-//   });
-// });
 
-// $(document).ready(function () {
-//   $(".feedbacks__slider").slick({
-//     slidesToShow: 2,
-//     slidesToScroll: 1,
-//     arrows: true,
-//     dots: false,
-//     infinite: true,
-//     prevArrow:
-//       "<img class='a-left control-c prev slick-prev' src='../img/Vector-left.svg'>",
-//     nextArrow:
-//       "<img class='a-right control-c next slick-next' src='../img/Vector-right.svg'>",
-//     responsive: [
-//       {
-//         breakpoint: 992,
-//         settings: {
-//           vertical: true,
-//           verticalSwiping: true,
-//           prevArrow:
-//           "<img class='a-left control-b prev slick-prev' src='../img/Vector-left.svg'>",
-//         nextArrow:
-//           "<img class='a-right control-b next slick-next' src='../img/Vector-down.svg'>",
-//         },
-//       },
-//     ],
-//   });
-// });
+//Music effect
+var beepOne = $("#beep")[0];
+$(".title__event_card")
+  .mouseenter(function () {
+    beepOne.play();
+  });
+
+
+//Scroll indicator
+// When the user scrolls the page, execute myFunction 
+window.onscroll = function () { myFunction() };
+
+function myFunction() {
+  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  var scrolled = (winScroll / height) * 100;
+  document.getElementById("myBar").style.width = scrolled + "%";
+}
