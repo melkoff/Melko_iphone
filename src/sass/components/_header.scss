@@ -123,8 +123,8 @@
                transition: 0.3s;
             }
             &.burger{
-               // position: fixed;
-               // right: 1%;
+               position: fixed;
+               right: 1%;
                z-index: 10;
             }
             &.burger{
@@ -176,6 +176,6 @@
       }
    }
 }
-.menu__open {
-   overflow: hidden;
-}
+// .menu__open {
+//    overflow: hidden;
+// }
