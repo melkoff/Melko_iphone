@@ -1,6 +1,6 @@
 .hero {
    font-family: "Inter";
-   .progresstop{
+   .progresstop {
       cursor: pointer;
       background-color: $var6;
       color: $var4;
@@ -17,15 +17,15 @@
       text-decoration: none;
       transition: 0.3s;
       border: 2px solid #10a5b3;
-      @media screen and (max-width: 576px){
+      @media screen and (max-width: 576px) {
          display: none;
       }
-      &:hover{
+      &:hover {
          color: #10a5b3;
          background-color: $var4;
          transition: 0.3s;
       }
-      .progress-item{
+      .progress-item {
          font-size: 40px;
       }
    }
